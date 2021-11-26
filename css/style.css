@@ -313,7 +313,7 @@ figure {
 
 .fh5co-cover {
   height: 100%;
-  padding: 0 0 10%;
+  padding: 0 0 0%;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -747,11 +747,11 @@ figure {
   }
 }
 #fh5co-gallery-list li.one-third {
-  width: 32.3%;
+  width: 100%; /* previously 32.3% */
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li.one-third {
-    width: 49%;
+    width: 100%; /* previously 49% */
   }
 }
 @media screen and (max-width: 480px) {
