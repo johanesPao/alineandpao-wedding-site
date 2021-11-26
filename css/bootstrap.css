@@ -44,7 +44,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-audio {
+.myAudio {
   position: fixed;
   top: 20px;
   right: 20px;
